@@ -7,7 +7,10 @@ environment:
   sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
-  core_foundation_framework: ^0.1.0
+  core_foundation_framework:
+    git:
+      url:  https://github.com/Jordan-Nelson/os-frameworks.git
+      path: packages/core_foundation
   ffi: ^2.0.1
 
 dev_dependencies:
